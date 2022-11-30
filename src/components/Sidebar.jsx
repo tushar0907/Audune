@@ -36,6 +36,7 @@ const Sidebar=() => {
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#323030]">
         <img src={logo} alt="logo" className="w-full h-14 object-contain" />
         <NavLinks />
+        <p className='flex mt-96 text-white font-semibold text-sm'>Developed By: Tushar Kumar</p>
       </div>
 
       {/* Mobile sidebar */}
